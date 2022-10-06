@@ -1,0 +1,43 @@
+.block-editor-inner-blocks > .block-editor-block-list__layout {
+	> [data-type="vidler-blocks/column"] {
+
+		&.xl {
+			&\:w-1\/12 {
+				width: 8.33%;
+			}
+			&\:w-2\/12 {
+				width: 16.66%;
+			}
+			&\:w-3\/12 {
+				width: 25%;
+			}
+			&\:w-4\/12 {
+				width: 33.33%;
+			}
+			&\:w-5\/12 {
+				width: 41.66%;
+			}
+			&\:w-6\/12 {
+				width: 50%;
+			}
+			&\:w-7\/12 {
+				width: 58.33%;
+			}
+			&\:w-8\/12 {
+				width: 66.66%;
+			}
+			&\:w-9\/12 {
+				width: 75%;
+			}
+			&\:w-10\/12 {
+				width: 83.33%;
+			}
+			&\:w-11\/12 {
+				width: 91.66%;
+			}
+			&\:w-full {
+				width: 100%;
+			}
+		}
+	}
+}

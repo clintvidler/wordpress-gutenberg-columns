@@ -1,0 +1,44 @@
+{
+	"name": "vidler-blocks-columns",
+	"version": "0.1.0",
+	"description": "Arrange blocks into multiple columns.",
+	"author": "Clint Vidler",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format && stylelint \"**/*.scss\" --fix",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update",
+		"prepare": "husky install"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config/scss"
+	},
+	"lint-staged": {
+		"*.js": [
+			"wp-scripts lint-js",
+			"wp-scripts format"
+		],
+		"*.scss": "npx stylelint --fix"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^10.1.0",
+		"@wordpress/blocks": "^11.17.0",
+		"@wordpress/components": "^21.1.0",
+		"@wordpress/i18n": "^4.18.0",
+		"classnames": "^2.3.2"
+	},
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "^13.2.0",
+		"@wordpress/prettier-config": "^2.1.0",
+		"@wordpress/scripts": "^24.2.0",
+		"@wordpress/stylelint-config": "^21.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.1.3"
+	}
+}

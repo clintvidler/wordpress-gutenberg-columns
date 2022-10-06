@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACC;EACA;EACA;AACD,C","sources":["webpack://vidler-blocks-columns/./src/style.scss"],"sourcesContent":[".wp-block-vidler-blocks-columns {\n\tdisplay: flex;\n\tflex-wrap: wrap;\n\toverflow: hidden;\n}\n"],"names":[],"sourceRoot":""}

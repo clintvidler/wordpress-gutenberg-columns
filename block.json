@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "vidler-blocks/columns",
+	"title": "Columns",
+	"category": "design",
+	"icon": "smiley",
+	"description": "Arrange blocks into multiple columns.",
+	"keywords": [ "Column", "Columns", "Grid" ],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "columns",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

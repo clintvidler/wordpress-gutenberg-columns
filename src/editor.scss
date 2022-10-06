@@ -1,0 +1,9 @@
+.wp-block-vidler-blocks-columns {
+	display: block;
+
+	 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+	}
+}
